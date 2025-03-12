@@ -1,0 +1,19 @@
+.form-btns {
+  margin-top: 2rem;
+  // outline: 1px solid lime;
+  button:nth-child(2) {
+    margin-left: 1rem;
+  }
+}
+
+.help-block {
+  color: rgb(255, 65, 65);
+}
+
+input.ng-touched.ng-invalid {
+  border: 1px solid rgb(255, 65, 65);
+}
+
+label {
+  cursor: pointer;
+}
